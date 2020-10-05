@@ -2,11 +2,11 @@ require 'pry'
 
 def my_collect(array)
   ct = 0
-
+  names = []
   while ct < array.size
-    yield(array[ct])
+    names << yield(array[ct])
     ct += 1
 
   end
- array
+ names
 end
