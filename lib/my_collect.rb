@@ -8,5 +8,5 @@ def my_collect(array)
     ct += 1
 
   end
-
+ array
 end
